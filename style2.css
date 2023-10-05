@@ -1,0 +1,28 @@
+body{
+background-color: cornsilk;
+background:crimson url(https://www.toptal.com/designers/subtlepatterns/uploads/geometric-leaves.png) no-repeat top center ;
+background-position: 0%;
+background-size: 100%;
+}
+h1 {
+    text-align: center;
+    text-decoration: wavy;
+    color:darkred;
+    text-indent: 40px;
+    }
+    h2 {
+    text-align: center;
+    color:rgb(239, 180, 16);
+    text-transform: initial;
+    }
+    h3 {
+    text-align:center;
+    color:brown;
+    text-decoration:wavy;
+    }
+    pre{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color:black;
+    letter-spacing: normal; 
+    }

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Latihan 4 WAD</title>
+    <link rel="stylesheet" href="stylelatihan4.css">
+  </head>
+  <body>
+    <h1>Javascript can validate your input</h1>
+    <p>Please input a number between 1 and 10:</p>
+    <input id="numb" type="number">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var x, text;
+            x = document.getElementById("numb").value;
+            if (isNaN(x)|| x < 1 || x > 10) {
+                text = "Your Input is not valid";
+            } else{
+                text = "Input OK";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+  </body>
+</html>
